@@ -1,0 +1,6 @@
+fastapi
+pydantic
+uvicorn
+python-multipart
+opencv-python
+moviepy

@@ -1,0 +1,35 @@
+.content-area {
+    margin-top: 20px;
+}
+
+.left-menu {
+    margin-top: 20px;
+}
+
+.left-menu li {
+    list-style: none;
+    background-color: aliceblue;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.left-menu li a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.left-menu li a:active {
+    color: black;
+    text-decoration: none;
+}
+
+.left-menu li a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.left-menu li a:hover {
+    color: black;
+    text-decoration: underline;
+}

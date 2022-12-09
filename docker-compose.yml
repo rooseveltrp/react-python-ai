@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  backend:
+    stdin_open: true
+    tty: true
+    build: ./backend
+    command: bash
+    volumes:
+      - ./backend/src/:/app/
+    ports:
+      - 5000:5000
